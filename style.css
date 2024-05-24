@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #222;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0;
+    height: 100vh;
+}
+.container{
+    width: 50vw;
+    height: 60vh;
+    /* border: 1px solid white; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    margin: 10px;
+    color: #dddddd;
+}
+input{
+    width: 400px;
+    height: 30px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.btn{
+    display: flex;
+    gap: 10px;
+}
+button{
+    height: 25px;
+    width: 60px;
+    background-color: silver;
+    border: none;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease; 
+    margin-bottom: 10px;
+}
+button:hover{
+    box-shadow:5px 5px 15px rgba(221, 230, 228, 0.3); ;
+}
+.Pounds{
+   height:60px ;
+   width: 400px;
+   background-color:rgb(3, 81, 107);
+   color: #dddddd;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 10px;
+}
+.Ounces{
+    height:60px ;
+    width: 400px;
+    background-color:rgb(49, 168, 49);
+    color: #dddddd;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+ }
+ .Grams{
+    height:60px ;
+    width: 400px;
+    background-color:rgb(154, 51, 51);
+    color: #dddddd;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+ }
